@@ -1,0 +1,30 @@
+.users_list {
+  max-width: 1800px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 500px) {
+  .users_list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  .users_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1400px) {
+  .users_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1600px) {
+  .users_list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
